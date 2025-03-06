@@ -1,1 +1,1 @@
-# trashbin
+# AI Trash Bin
