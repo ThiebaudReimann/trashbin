@@ -64,7 +64,7 @@ config = types.GenerateContentConfig(
 SAMPLE_RATE = 16000
 FRAME_DURATION = 30  # ms
 FRAME_SIZE = int(SAMPLE_RATE * FRAME_DURATION / 1000)
-VAD_AGGRESSIVENESS = 0  # 0-3, higher is more aggressive
+VAD_AGGRESSIVENESS = 1  # 0-3, higher is more aggressive
 
 # Global variables for audio processing
 audio_queue = queue.Queue()
